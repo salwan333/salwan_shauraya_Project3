@@ -1,0 +1,55 @@
+/* Default styles for all screen sizes */
+.column {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    ;
+  }
+  
+  .pink {
+    background-color: #ff69b4;
+  }
+  
+  .red {
+    background-color: #ff0000;
+  }
+  
+  .grey {
+    background-color: #808080;
+  }
+  
+  .brown {
+    background-color: #964b00;
+  }
+  
+  /* Media query for screens larger than 640px */
+  @media screen and (min-width: 641px) {
+    .column {
+      width: 25%;
+    }
+  
+    .pink {
+      display: block;
+      background-color: #0000ff;
+    }
+  
+    .red {
+      display: block;
+      background-color: #800080;
+    }
+  
+    .grey {
+      display: block;
+      background-color: #a9a9a9;
+    }
+  
+    .brown {
+      display: block;
+      background-color: #8b4513;
+    }
+  }
+  
