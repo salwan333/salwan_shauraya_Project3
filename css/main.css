@@ -19,11 +19,11 @@
   }
   
   .grey {
-    background-color: #808080;
+    background-color: none;
   }
   
   .brown {
-    background-color: #964b00;
+    background-color: none;
   }
   
   /* Media query for screens larger than 640px */
